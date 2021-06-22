@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E64A19"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="#fff"
+            android:text="Pizza and Burger Delight"
+            android:textSize="19sp"
+            android:layout_marginBottom="13dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:id="@+id/mobilenum"
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:layout_margin="22dp"
+            android:textSize="17sp"
+            android:hint="Enter mobile number"
+            android:inputType="number"
+            android:textColor="#6A1B9A"
+            android:textColorHint="#6A189A"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="#fff"
+            android:id="@+id/password"
+            android:layout_gravity="center"
+            android:layout_margin="22dp"
+            android:textSize="17sp"
+            android:hint="Enter OTP"
+            android:inputType="textPassword"
+            android:textColor="#6A1B9A"
+            android:textColorHint="#6A189A"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Sign in"
+            android:paddingRight="8dp"
+            android:background="#E65100"
+            android:textColor="#fff"
+            android:paddingLeft="8dp"
+            android:layout_marginBottom="22dp"
+            android:layout_gravity="center"
+            android:id="@+id/signup" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Get OTP"
+            android:textColor="#fff"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:layout_gravity="center"
+            android:id="@+id/otp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="22dp"
+            android:textColor="#1B5E20"
+            android:text="help"
+            android:textSize="15sp"
+            android:id="@+id/ol"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#0097A7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:gravity="bottom"
+            android:layout_gravity="center" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Powered by Srishti IT Solutions"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:gravity="bottom"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact at : abhlshtrpth13@gmail.com"
+                android:textColor="#FDFFFC"
+                android:textSize="13sp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

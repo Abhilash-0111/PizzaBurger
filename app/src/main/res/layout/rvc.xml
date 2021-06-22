@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:layout_margin="17dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/pizza"
+        android:elevation="22dp"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:padding="8dp"
+                android:layout_weight="3"
+                android:id="@+id/name"
+                android:text="Pizza"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <!-- Title, secondary and supporting text -->
+
+               <com.google.android.material.button.MaterialButton
+                   android:layout_width="30dp"
+                   android:layout_height="40dp"
+                   android:layout_margin="4dp"
+                   android:text="+"
+                   app:strokeWidth="1dp"
+                   app:strokeColor="#000"
+                   app:cornerRadius="40dp"
+                   android:background="#CCFF90"
+                   style="?attr/borderlessButtonStyle"
+                   android:id="@+id/increase" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/quantity"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_weight="0.5"
+                    android:text="2"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?android:attr/textColorPrimary"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="#000"
+                    app:cornerRadius="40dp"
+                    android:layout_margin="4dp"
+                    android:text="-"
+                    style="?attr/borderlessButtonStyle"
+                    android:background="#CCFF90"
+                    android:id="@+id/decrease" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price"
+                    android:gravity="right"
+                    android:padding="4dp"
+                    android:layout_weight="2"
+                    android:text="1500/Rs"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?android:attr/textColorPrimary"
+                    />
+
+            </LinearLayout>
+
+            <!-- Buttons -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Remove"
+                    android:id="@+id/remove"
+                    style="?attr/borderlessButtonStyle"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

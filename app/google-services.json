@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "356440050711",
+    "firebase_url": "https://pizzaburger-a990e.firebaseio.com",
+    "project_id": "pizzaburger-a990e",
+    "storage_bucket": "pizzaburger-a990e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356440050711:android:bc1d48a3dcd27d7f522052",
+        "android_client_info": {
+          "package_name": "com.sits.pizzaburger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356440050711-u348t40ca3s409p575dnhm6hlhrj2jj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sits.pizzaburger",
+            "certificate_hash": "0e6535e9245cc0c52a42ee14759c272c189d2200"
+          }
+        },
+        {
+          "client_id": "356440050711-cb4mloa6c9k4f1ll5arikrb22rtnk278.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDByY9pgmKkHugQ95MhlyAWd5gZmSCQi04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356440050711-cb4mloa6c9k4f1ll5arikrb22rtnk278.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
